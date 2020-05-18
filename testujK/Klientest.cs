@@ -44,5 +44,52 @@ namespace testujK
             //Assert
             Assert.AreEqual(oczekiwana,aktualna);
         }
+        [TestMethod]
+        public void StaticTest()
+        {
+            //arrange (zaaranuj test)
+            Klient klient = new Klient();
+            klient.Imie = "Marian";
+            Klient.licznik += 1;
+
+            Klient klient2 = new Klient();
+            klient2.Imie = "Jacek";
+            Klient.licznik += 1;
+
+            Klient klient3 = new Klient();
+            klient3.Imie = "Władek";
+            Klient.licznik += 1;
+
+            //Assert
+            Assert.AreEqual(3,Klient.licznik);
+        }
+
+        [TestMethod]
+        public void ZwalidujTest()
+        {
+            //arrange (zaaranuj test)
+            var klient = new Klient();
+            klient.Nazwisko = "Nowak";
+            klient.Email = "nowak@dev.pl";
+            var oczekiwana = true;
+            //ACT działaj
+            var aktualna = klient.Zwaliduj();
+            //Assert
+            Assert.AreEqual(oczekiwana,aktualna);
+        }
+
+          [TestMethod]
+        public void ZwalidujbrakNazwiskaTest()
+        {
+            //arrange (zaaranuj test)
+            var klient = new Klient();
+            klient.Email = "nowak@dev.pl";
+            var oczekiwana = false;
+            //ACT działaj
+            var aktualna = klient.Zwaliduj();
+            //Assert
+            Assert.AreEqual(oczekiwana,aktualna);
+        }
+
     }
 }
