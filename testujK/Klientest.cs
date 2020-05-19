@@ -85,6 +85,8 @@ namespace testujK
             var klient = new Klient();
             klient.Email = "nowak@dev.pl";
             var oczekiwana = false;
+
+            klient.Pobierz(4);
             //ACT działaj
             var aktualna = klient.Zwaliduj();
             //Assert

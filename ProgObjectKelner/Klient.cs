@@ -2,6 +2,15 @@ using System.Collections.Generic;
 
 namespace ProgObjectKelner {
     public class Klient {
+        public Klient () {
+            
+        }
+
+        public Klient(int klientId)
+        {
+            KlientId = klientId;
+        }
+
         public static int licznik { get; set; }
 
         private string _nazwisko;
@@ -18,7 +27,7 @@ namespace ProgObjectKelner {
 
         public string Imie { get; set; }
         public string Email { get; set; }
-        public int KlientId { get; set; }
+        public int KlientId { get; private set; }
         /// <summary>
         /// Łączy imie i nazwisko
         /// </summary>
@@ -67,8 +76,6 @@ namespace ProgObjectKelner {
             return new List<Klient> ();
 
         }
-
-    
 
     }
 }
