@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ProgObjectKelner
 {
-    public class Zamowienie
+    public class Zamowienie : KlasaBazowa
     {
         public Zamowienie ()
         {
@@ -39,7 +39,7 @@ namespace ProgObjectKelner
             return true;
         }
 
-        public bool Zwaliduj ()
+        public override bool Zwaliduj ()
         {
             var poprawne = true;
             if (DataZamowienie == null)

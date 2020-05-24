@@ -10,9 +10,23 @@ namespace ProgObjectKelner
         {
             adresrepository = new AdresRepository ();
         }
-        public bool Zapisz ()
+        public bool Zapisz (Klient klient)
         {
-            return true;
+            var sukces = true;
+            if (klient.MaZmiany && klient.DaneSaPrawidlowe)
+            {
+                if (klient.JestNowy)
+                {
+                    //wywolujemy procedure inserta
+                }
+                else
+                {
+                    //wywolujemy update produktu
+                }
+
+            }
+
+            return sukces;
         }
 
         public Klient Pobierz (int klientid)

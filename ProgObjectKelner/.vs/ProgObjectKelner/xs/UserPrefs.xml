@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{5D575880-ACE2-4FA7-8301-B3A83B280CFB}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZamowienieRepository.cs">
+    <Files>
+      <File FileName="KlasaBazowa.cs" Line="12" Column="34" />
+      <File FileName="Produkt.cs" Line="53" Column="28" />
+      <File FileName="ProduktRepo.cs" Line="48" Column="27" />
+      <File FileName="Klient.cs" Line="7" Column="36" />
+      <File FileName="KlientRepository.cs" Line="18" Column="37" />
+      <File FileName="ZamowienieRepository.cs" Line="81" Column="14" />
+      <File FileName="Zamowienie.cs" Line="6" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ProgObjectKelner" expanded="True">
+            <Node name="ProgObjectKelner" expanded="True">
+              <Node name="ZamowienieRepository.cs" selected="True" />
+            </Node>
+            <Node name="testujK" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.testujK PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

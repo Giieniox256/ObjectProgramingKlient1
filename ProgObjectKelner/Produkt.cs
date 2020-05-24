@@ -1,7 +1,7 @@
 using System;
 namespace ProgObjectKelner
 {
-    public class Produkt
+    public class Produkt : KlasaBazowa
     {
         public Produkt ()
         {
@@ -50,7 +50,7 @@ namespace ProgObjectKelner
         /// sprawdzamy dane produkt
         /// </summary>
         /// <returns></returns>
-        public bool Zwaliduj ()
+        public override bool Zwaliduj ()
         {
             var poprawne = true;
             if (string.IsNullOrWhiteSpace (NazwaProduktu))

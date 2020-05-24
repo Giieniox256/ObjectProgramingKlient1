@@ -5744,7 +5744,7 @@
       "outputPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/testujK/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/petro/.nuget/NuGet/NuGet.Config"
+        "/Users/petro/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
