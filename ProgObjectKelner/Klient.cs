@@ -36,6 +36,7 @@ namespace ProgObjectKelner
         public string Imie { get; set; }
         public string Email { get; set; }
         public int KlientId { get; private set; }
+        public int klientTyp { get; set; }
         /// <summary>
         /// Łączy imie i nazwisko
         /// </summary>
@@ -94,6 +95,10 @@ namespace ProgObjectKelner
             return new List<Klient> ();
 
         }
+
+       public  override  string  ToString(){
+           return ImieNazwisko;
+       }
 
     }
 }

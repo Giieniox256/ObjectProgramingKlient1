@@ -1,14 +1,25 @@
 using System;
-namespace ProgObjectKelner {
-    public class Produkt {
-        public Produkt () {
+namespace ProgObjectKelner
+{
+    public class Produkt
+    {
+        public Produkt ()
+        {
 
         }
 
-        public Produkt (int productId) {
+        public Produkt (int productId)
+        {
             ProductId = productId;
         }
 
+        public Produkt (int productId, string opis, string nazwaProduktu)
+        {
+            this.ProductId = productId;
+            this.Opis = opis;
+            this.NazwaProduktu = nazwaProduktu;
+
+        }
         public int ProductId { get; private set; }
         public Decimal? AktualnaCena { get; set; }
         public string Opis { get; set; }
@@ -19,7 +30,8 @@ namespace ProgObjectKelner {
         /// </summary>
         /// <param name="productId"></param>
         /// <returns>zwraca nowy produkt</returns>
-        public Produkt Pobierz (int productId) {
+        public Produkt Pobierz (int productId)
+        {
             //kod który pobiera zdefiniowany produkt
             return new Produkt ();
         }
@@ -29,7 +41,8 @@ namespace ProgObjectKelner {
         /// </summary>
         /// <param name="productId"></param>
         /// <returns>zwraca nowy produkt</returns>
-        public bool Zapisz () {
+        public bool Zapisz ()
+        {
             //kod który zapisuje zdefiniowany produkt
             return true;
         }
@@ -37,12 +50,18 @@ namespace ProgObjectKelner {
         /// sprawdzamy dane produkt
         /// </summary>
         /// <returns></returns>
-        public bool Zwaliduj () {
+        public bool Zwaliduj ()
+        {
             var poprawne = true;
             if (string.IsNullOrWhiteSpace (NazwaProduktu))
                 poprawne = false;
 
             return poprawne;
+        }
+
+        public override string ToString ()
+        {
+            return NazwaProduktu;
         }
     }
 }

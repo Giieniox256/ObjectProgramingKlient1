@@ -17,6 +17,7 @@ namespace ProgObjectKelner
         public List<PozycjaZamowienia> pozycjeZamowienia { get; set; }
         public int klientId { get; set; }
         public int AdresdostawyId { get; set; }
+         
 
         public int ZamowienieId { get; private set; }
         public DateTimeOffset? DataZamowienie { get; set; }
@@ -47,6 +48,11 @@ namespace ProgObjectKelner
 
             }
             return poprawne;
+        }
+        
+        public override string ToString()
+        {
+            return DataZamowienie.Value.Date + "(" + ZamowienieId +")";
         }
     }
 }
