@@ -1,26 +1,34 @@
 using System.Collections.Generic;
 
-namespace ProgObjectKelner {
-    public class Klient {
-        public Klient () {
-            
+namespace ProgObjectKelner
+{
+    public class Klient
+    {
+        public Klient () : this (0)
+        {
+
         }
 
-        public Klient(int klientId)
+        public Klient (int klientId)
         {
             KlientId = klientId;
+            ListaAdresow = new List<Adres> ();
         }
 
+        public List<Adres> ListaAdresow { get; set; }
         public static int licznik { get; set; }
 
         private string _nazwisko;
 
-        public string Nazwisko {
-            get {
+        public string Nazwisko
+        {
+            get
+            {
                 return _nazwisko;
             }
 
-            set {
+            set
+            {
                 _nazwisko = value;
             }
         }
@@ -32,11 +40,15 @@ namespace ProgObjectKelner {
         /// Łączy imie i nazwisko
         /// </summary>
         /// <value></value>
-        public string ImieNazwisko {
-            get {
+        public string ImieNazwisko
+        {
+            get
+            {
                 string imieNazwisko = Imie;
-                if (!string.IsNullOrWhiteSpace (Nazwisko)) {
-                    if (!string.IsNullOrWhiteSpace (imieNazwisko)) {
+                if (!string.IsNullOrWhiteSpace (Nazwisko))
+                {
+                    if (!string.IsNullOrWhiteSpace (imieNazwisko))
+                    {
                         imieNazwisko += ", ";
                     }
                     imieNazwisko += Nazwisko;
@@ -47,13 +59,16 @@ namespace ProgObjectKelner {
 
         }
 
-        public bool Zwaliduj () {
+        public bool Zwaliduj ()
+        {
             var poprawne = true;
 
-            if (string.IsNullOrWhiteSpace (Nazwisko)) {
+            if (string.IsNullOrWhiteSpace (Nazwisko))
+            {
                 poprawne = false;
             }
-            if (string.IsNullOrWhiteSpace (Email)) {
+            if (string.IsNullOrWhiteSpace (Email))
+            {
                 poprawne = false;
             }
             return poprawne;
@@ -62,16 +77,19 @@ namespace ProgObjectKelner {
         /// zapisujemy obecnego klienta
         /// </summary>
         /// <returns></returns>
-        public bool Zapisz () {
+        public bool Zapisz ()
+        {
             return true;
         }
 
-        public Klient Pobierz (int klientid) {
+        public Klient Pobierz (int klientid)
+        {
             //pobieranie klienta
             return new Klient ();
         }
 
-        public List<Klient> Pobierz () {
+        public List<Klient> Pobierz ()
+        {
             //kod ktory pobiera wszystkich klientow
             return new List<Klient> ();
 

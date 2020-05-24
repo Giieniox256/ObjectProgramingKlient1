@@ -1,17 +1,26 @@
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ProgObjectKelner
 {
     public class KlientRepository
     {
-         public bool Zapisz () {
+        private AdresRepository adresrepository { get; set; }
+        public KlientRepository ()
+        {
+            adresrepository = new AdresRepository ();
+        }
+        public bool Zapisz ()
+        {
             return true;
         }
 
-        public Klient Pobierz (int klientid) {
+        public Klient Pobierz (int klientid)
+        {
             //pobieranie klienta
 
-            Klient klient = new Klient(klientid);
+            Klient klient = new Klient (klientid);
+            klient.ListaAdresow = adresrepository.PobierzKlientpoID (klientid).ToList ();
 
             if (klientid == 1)
             {
@@ -20,11 +29,11 @@ namespace ProgObjectKelner
                 klient.Imie = "Pedro";
             }
 
-
             return klient;
         }
 
-        public List<Klient> Pobierz () {
+        public List<Klient> Pobierz ()
+        {
             //kod ktory pobiera wszystkich klientow
             return new List<Klient> ();
 
