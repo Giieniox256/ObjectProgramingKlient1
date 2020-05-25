@@ -1,0 +1,9 @@
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/bin/Debug/netstandard2.0/Common.deps.json
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/bin/Debug/netstandard2.0/Common.dll
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/bin/Debug/netstandard2.0/Common.pdb
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/Debug/netstandard2.0/Common.csprojAssemblyReference.cache
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/Debug/netstandard2.0/Common.AssemblyInfoInputs.cache
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/Debug/netstandard2.0/Common.AssemblyInfo.cs
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/Debug/netstandard2.0/Common.csproj.CoreCompileInputs.cache
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/Debug/netstandard2.0/Common.dll
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/Debug/netstandard2.0/Common.pdb

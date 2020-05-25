@@ -7,3 +7,6 @@
 /Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/obj/Debug/netstandard2.0/ProgObjectKelner.AssemblyInfo.cs
 /Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/obj/Debug/netstandard2.0/ProgObjectKelner.dll
 /Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/obj/Debug/netstandard2.0/ProgObjectKelner.pdb
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/bin/Debug/netstandard2.0/Common.dll
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/bin/Debug/netstandard2.0/Common.pdb
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/obj/Debug/netstandard2.0/ProgObjectKelner.csproj.CopyComplete

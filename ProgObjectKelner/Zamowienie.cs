@@ -1,9 +1,10 @@
 using System;
 using System.Collections.Generic;
+using Common;
 
 namespace ProgObjectKelner
 {
-    public class Zamowienie : KlasaBazowa
+    public class Zamowienie : KlasaBazowa,ILogowanie
     {
         public Zamowienie ()
         {
@@ -53,6 +54,13 @@ namespace ProgObjectKelner
         public override string ToString()
         {
             return DataZamowienie.Value.Date + "(" + ZamowienieId +")";
+        }
+
+        public string Log()
+        {
+            var logTekst = ZamowienieId + ": " + "Date: " + DataZamowienie.Value.Date +
+                            " " + "Status: " + StanObiektu.ToString();
+            return logTekst;
         }
     }
 }

@@ -94,3 +94,5 @@
 /Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/testujK/obj/Debug/netcoreapp3.1/testujK.dll
 /Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/testujK/obj/Debug/netcoreapp3.1/testujK.pdb
 /Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/testujK/obj/Debug/netcoreapp3.1/testujK.genruntimeconfig.cache
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/testujK/bin/Debug/netcoreapp3.1/Common.dll
+/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/testujK/bin/Debug/netcoreapp3.1/Common.pdb

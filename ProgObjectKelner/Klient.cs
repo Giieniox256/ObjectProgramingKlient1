@@ -1,8 +1,9 @@
 using System.Collections.Generic;
+using Common;
 
 namespace ProgObjectKelner
 {
-    public class Klient : KlasaBazowa
+    public class Klient : KlasaBazowa, ILogowanie
     {
         public Klient () : this (0)
         {
@@ -99,6 +100,15 @@ namespace ProgObjectKelner
        public  override  string  ToString(){
            return ImieNazwisko;
        }
+
+        public string Log()
+        {
+            var logTekst = KlientId + ": " +
+                            ImieNazwisko + " " +
+                            "Eamail: " + Email + " " +
+                            "Status: " + StanObiektu.ToString();
+            return logTekst;
+        }
 
     }
 }

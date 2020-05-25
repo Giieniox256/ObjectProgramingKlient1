@@ -1,22 +1,37 @@
 ﻿<Properties StartupConfiguration="{5D575880-ACE2-4FA7-8301-B3A83B280CFB}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="ZamowienieRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="KlasaBazowa.cs">
     <Files>
-      <File FileName="KlasaBazowa.cs" Line="12" Column="34" />
-      <File FileName="Produkt.cs" Line="53" Column="28" />
-      <File FileName="ProduktRepo.cs" Line="48" Column="27" />
-      <File FileName="Klient.cs" Line="7" Column="36" />
-      <File FileName="KlientRepository.cs" Line="18" Column="37" />
-      <File FileName="ZamowienieRepository.cs" Line="81" Column="14" />
-      <File FileName="Zamowienie.cs" Line="6" Column="42" />
+      <File FileName="KlasaBazowa.cs" Line="7" Column="26" />
+      <File FileName="Produkt.cs" Line="6" Column="50" />
+      <File FileName="../Common/Class1.cs" Line="8" Column="47" />
+      <File FileName="../CommonTest/ObslugaStringaTest.cs" Line="33" Column="48" />
+      <File FileName="Zamowienie.cs" Line="63" Column="29" />
+      <File FileName="../CommonTest/EmptyClass.cs" Line="12" Column="20" />
+      <File FileName="../Common/ILogowanie.cs" Line="1" Column="1" />
+      <File FileName="Klient.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ProgObjectKelner" expanded="True">
+            <Node name="Common" expanded="True" />
+            <Node name="CommonTest" expanded="True" />
             <Node name="ProgObjectKelner" expanded="True">
-              <Node name="ZamowienieRepository.cs" selected="True" />
+              <Node name="KlasaBazowa.cs" selected="True" />
             </Node>
-            <Node name="testujK" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ProgObjectKelner" expanded="True">
+            <Node name="CommonTest" expanded="True">
+              <Node name="CommonTest" expanded="True">
+                <Node name="UslugaLogowanieTest" expanded="True">
+                  <Node name="PiszDoPlikuTest" selected="True" />
+                </Node>
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>

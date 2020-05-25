@@ -4,14 +4,14 @@
     "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj": {}
   },
   "projects": {
-    "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj": {
+    "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj",
-        "projectName": "ProgObjectKelner",
-        "projectPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj",
+        "projectUniqueName": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/Common.csproj",
+        "projectName": "Common",
+        "projectPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/Common.csproj",
         "packagesPath": "/Users/petro/.nuget/packages/",
-        "outputPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/obj/",
+        "outputPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/petro/.config/NuGet/NuGet.Config"
@@ -53,7 +53,64 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj",
+        "projectName": "ProgObjectKelner",
+        "projectPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/ProgObjectKelner.csproj",
+        "packagesPath": "/Users/petro/.nuget/packages/",
+        "outputPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/ProgObjectKelner/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/petro/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/Common.csproj": {
+                "projectPath": "/Users/petro/Pierdoly/Kurs_netCore/ObjectProgramKelner/Common/Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.300/RuntimeIdentifierGraph.json"
         }
       }
     }
